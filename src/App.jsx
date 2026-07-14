@@ -13,7 +13,6 @@ function App() {
 
   return (
     <>
-    <NavLab />
       <BrowserRouter>
       <Routes>
         <Route path='/' element={<AddLab />}/>
