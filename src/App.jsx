@@ -17,7 +17,7 @@ function App() {
       <BrowserRouter>
       <Routes>
         <Route path='/' element={<AddLab />}/>
-        <Route path='/' element={<ViewLab />}/>
+        <Route path='/View' element={<ViewLab />}/>
       </Routes>
       </BrowserRouter>
     </>

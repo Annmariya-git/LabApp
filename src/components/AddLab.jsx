@@ -5,7 +5,7 @@ import NavLab from './NavLab'
 
 const AddLab = () => {
     const[input,changeInput]=useState(
-        {   id: "",
+        {   _id: "",
             name: "",
             dept: "",
             sem: "",
